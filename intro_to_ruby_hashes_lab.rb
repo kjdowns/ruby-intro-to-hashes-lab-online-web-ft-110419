@@ -54,9 +54,9 @@ def monopoly_with_fourth_tier
       }
     }
   }
-  monopoly[:railroads][:names][:reading_railroad]["mortgage value"] = "$100"
-  monopoly[:railroads][:names][:pennsylvania_railroad]["mortgage value"] = "$200"
-  monopoly[:railroads][:names][:b_and_o_railroad]["mortgage value"] = "$400"
-  monopoly[:railroads][:names][:shortline]["mortgage value"] = "$800"
+  monopoly[:railroads][:names][:reading_railroad]["mortgage_value"] = "$100"
+  monopoly[:railroads][:names][:pennsylvania_railroad]["mortgage_value"] = "$200"
+  monopoly[:railroads][:names][:b_and_o_railroad]["mortgage_value"] = "$400"
+  monopoly[:railroads][:names][:shortline]["mortgage_value"] = "$800"
   monopoly
 end
